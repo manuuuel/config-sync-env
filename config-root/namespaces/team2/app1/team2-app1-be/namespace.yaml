@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team2-app1-be
+  labels:
+    env: sit
+    app: app1
+    tier: be
+    app-code: '0000'
